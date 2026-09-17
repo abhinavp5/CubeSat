@@ -1,10 +1,11 @@
 #ifndef APP_MAIN_H
 #define APP_MAIN_H
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
 
-void app_main();
+    void app_main();
 
 #ifdef __cplusplus
 }
