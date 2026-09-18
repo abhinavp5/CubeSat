@@ -1,8 +1,11 @@
 #include "CanTask.h"
+#include "Nodes.h"
 #include "TaskCommon.h"
+#include <cstdint.h>
 
-namespace
+namespace CanTask
 {
+
     void canTask(void *)
     {
         while (1)
